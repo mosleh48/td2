@@ -1,13 +1,4 @@
-name: PHP_CodeSniffer
-
-on:
-  push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
-
-jobs:
-  phpcs:
+phpcs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
