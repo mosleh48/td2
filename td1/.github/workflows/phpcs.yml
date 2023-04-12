@@ -1,2 +1,3 @@
-- name: Install cs2pr
-  run: wget -q https://cs.symfony.com/cs2pr -O cs2pr && chmod +x cs2pr
+- name: Run PHP_CodeSniffer
+  run: ./vendor/bin/phpcs --report=checkstyle | ./cs2pr
+
