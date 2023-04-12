@@ -1,0 +1,8 @@
+name space ;le but de la programation objet metre du code a l'interiere de classe de maniere que qlq 
+            peut utiliser ton code (code soit utilisable ailleur facilement)
+
+
+        action de git hub pour lancer phpcs    
+        .github
+           workflows
+            main.yml
